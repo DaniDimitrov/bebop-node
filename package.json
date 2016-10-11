@@ -10,6 +10,15 @@
   "author": "Daniel Dimitrov",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-nodemon": "^2.2.1",
+    "wiredep": "^4.0.0"
   }
 }

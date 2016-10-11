@@ -1,20 +1,36 @@
 {
-  "name": "express-app",
-  "description": "",
-  "main": "app.js",
-  "authors": [
+    "name": "express-app",
+    "description": "",
+    "main": "app.js",
+    "authors": [
     "Daniel Dimitrov"
   ],
-  "license": "ISC",
-  "homepage": "",
-  "ignore": [
+    "license": "ISC",
+    "homepage": "",
+    "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
   ],
-  "dependencies": {
-    "bootstrap": "^3.3.7"
-  }
+    "dependencies": {
+        "bootstrap": "^3.3.7"
+    },
+    "overrides": {
+        "bootstrap": {
+            "main": [
+                "dist/js/bootstrap.js",
+                "dist/css/bootstrap.css",
+                "less/bootstrap.less"
+            ]
+        },
+        "font-awesome": {
+            "main": [
+                "less/font-awesome.less",
+                "css/font-awesome.min.css",
+                "scss/font-awesome.scss"
+            ]
+        }
+    }
 }
